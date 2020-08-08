@@ -1,88 +1,179 @@
-
+<!DOCTYPE html>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title> My Restaurant</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Playball&display=swap" rel="stylesheet">
+
+
 </head>
 <body>
     <header>
-        <img src="images/logo3.png" alt="my logo" class="logo" width="110" height="80">
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#Skills">Skills</a></li>
-                <li><a href="#Contact-Us">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section class="About">
-        <img src="images/programmer1.jpg" alt="programmer">
-        <div class="aside">
+        <div class="container">
+            <a class="logo" href="#"> Mr.Food</a>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#">Stories</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#reservation"><button class="booking" type="button">Book a table</button></a></li>
+                </ul>        
+            </nav>
+        </div><br><hr>
+
+        <section class="slogan">
+            <h4>feliciano</h4>
             <h3>
-                About me
-            </h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque eligendi, non ullam tempore eius ex facilis voluptates doloremque nobis praesentium quaerat est blanditiis facere omnis minima optio! Officiis raesentium quaerat est blanditiis facere omnis minima optio! Officiisraesentium quaerat est blanditiis facere omnis minima optio! Officiis.
-            </p>
-            <h4>Total projects : 25</h4>
-        </div>
-    </section>
-    <section class="template">
+                Best Restaurant
+            </h3><hr>
+        </section>
+        <section class="benefits">
+            <div>
+                 <img class="card" src="images/breakfast-1.jpg" alt="breakfast-1" width="80" height="80">
+                <h4>Grilled Beef with potatoes</h4>
+                <h6>Meat, Potatoes, Rice, Tomatoe</h6>
+            </div>
+            <div>
+                <img class="card" src="images/breakfast-2.jpg" alt="breakfast-2" width="80" height="80">
+                <h4>Grilled Beef with potatoes</h4>
+                <h6>Meat, Potatoes, Rice, Tomatoe</h6>
+            </div>
+            <div>
+                <img class="card" src="images/breakfast-3.jpg" alt="breakfast-3" width="80" height="80">
+                <h4>Grilled Beef with potatoes</h4>
+                <h6>Meat, Potatoes, Rice, Tomatoe</h6>
+            </div>
+            <div>
+                <img class="card" src="images/breakfast-4.jpg" alt="breakfast-4" width="80" height="80">
+                <h4>Grilled Beef with potatoes</h4>
+                <h6>Meat, Potatoes, Rice, Tomatoe</h6>
+            </div>
+        </section>
+    </header>
+    <section id="about">
         <div>
-            <img src="images/icon1.png" alt="HTML5" width="100" height="100">
+            <img src="images/about.jpg" alt="chief1" width="309" height="480" class="chief1">
         </div>
         <div>
-            <img src="images/icon2.png" width="100" height="100" alt="HTML5">
-        </div><div>
-            <img src="images/icon 3.png" width="100" height="100" alt="HTML5">
-        </div><div>
-            <img src="images/icon4.png" width="100" height="100" alt="HTML5">
-        </div><div>
-            <img src="images/icon5.png" width="100" height="100" alt="HTML5">
+            <img src="images/about-1.jpg" alt="chief2" width="309" height="480" class="chief2">
         </div>
-        
+        <div class="aside">
+            <h3>Feliciano</h3>
+            <h3>Feliciano Restaurant</h3>
+            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+            <h2>+ 1-978-123-4567</h2>
+        </div>
     </section>
+    <section class="services">
+        <div>
+            <center><h3>Catering services</h3> </center>  
+        </div>
+        <div class="wrapper">
+            <div>
+                <img src="images/icon.png" alt="icon1" srcset="" width="90" height="80">
+                <h4>Birthday Party</h4>
+                <h6>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</h6>
+            </div>
 
-    <section id="Skills">
-       <h1>My Skills</h1><br>
-        <table border="5">
-            <tr>
-                <th> Name </th>
-                <th> Rate </th>
-            </tr>
-            <tr>
-                <td>HTML</td>
-                <td>50%</td>
-            </tr>
-            <tr>
-                <td>Css</td>
-                <td>60%</td>
-            </tr>
-            <tr>
-                <td>Bootstrap</td>
-                <td>40%</td>
-            </tr>
-            
-        </table>
-    </section>
-    <section id="Contact-Us">
-        <h1>Contact us</h1>
-        <form>
-            <label for="fname">Name:</label><br>
-            <input type="text" id="name" name="name" placeholder="John Doe"><br><br>
-            <label for="E-mail">E-mail:</label><br>
-            <input type="email" id="E-mail" name="lname" placeholder="John Doe@yahoo.com"><br><br>
-            
-            <textarea name="message" style="width:500px; height:400px;" placeholder="Type your message"></textarea>
-            <br>
-            <button type="submit" onclick="alert(' your message send succsessfully!')">Send</button>
- 
-          </form>
+            <div>
+                <img src="images/icon-2.png" alt="icon2" srcset="" width="90" height="80">
+                <h4>Business meeting</h4>
+                <h6>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</h6>
+            </div>
 
+            <div>
+                <img src="images/icon-3.png" alt="icon3" srcset="" width="90" height="80">
+                <h4>Wedding Party</h4>
+                <h6>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</h6>
+            </div>
+        </div>
     </section>
-</body>
+    <section id="menu">
+        <div>
+            <center><h3 class="menu-p">Our Menu</h3> </center>  
+        </div>
+
+        <div class="section-wrapper">
+            <div>
+                <img src="images/lunch-1.jpg" alt="lunch-1" width="250" height="250">    
+            </div>
+            <div class="menu-1">
+                <h1>Grilled Beef</h1>
+                <p>Meat, Potatoes, Rice,</p>
+                <p>Tomatoe</p>
+                <button class="order" type="button">Order now</button>
+            </div>
+            <div>
+                <img src="images/lunch-2.jpg" alt="lunch-2" width="250" height="250"> 
+            </div>
+            <div class="menu-1">
+                <h1>Grilled Beef</h1>
+                <p>Meat, Potatoes, Rice,</p>
+                <p>Tomatoe</p> 
+                <button class="order" type="button">Order now</button>
+            </div>    
+        </div>   
+        <div class="section-wrapper">
+            <div>
+                <img src="images/lunch-3.jpg" alt="lunch-1" width="250" height="250">    
+            </div>
+            <div class="menu-1">
+                <h1>Grilled Beef</h1>
+                <p>Meat, Potatoes, Rice,</p>
+                <p>Tomatoe</p>
+                <button class="order" type="button">Order now</button>
+            </div>
+            <div>
+                <img src="images/lunch-4.jpg" alt="lunch-2" width="250" height="250"> 
+            </div>
+            <div class="menu-1">
+                <h1>Grilled Beef</h1>
+                <p>Meat, Potatoes, Rice,</p>
+                <p>Tomatoe</p> 
+                <button class="order" type="button">Order now</button>
+            </div>    
+        </div>
+        <div class="section-wrapper">
+            <div>
+                <img src="images/dinner-5.jpg" alt="lunch-1" width="250" height="250">    
+            </div>
+            <div class="menu-1">
+                <h1>Grilled Beef</h1>
+                <p>Meat, Potatoes, Rice,</p>
+                <p>Tomatoe</p>
+                <button class="order" type="button">Order now</button>
+            </div>
+            <div>
+                <img src="images/dinner-6.jpg" alt="lunch-l2" width="250" height="250"> 
+            </div>
+            <div class="menu-1">
+                <h1>Grilled Beef</h1>
+                <p>Meat, Potatoes, Rice,</p>
+                <p>Tomatoe</p> 
+                <button class="order" type="button">Order now</button>
+            </div>    
+        </div> 
+        <section id="reservation">
+            <div class="make-res">
+                <center><h2>Make reservation</h2></center>
+                <form>
+                    <label for="fname">First name:</label><br>
+                    <input type="text" id="fname" name="fname" placeholder="Ahmed"><br>
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" id="lname" name="lname" placeholder="Adel"><br><br>
+                    <label for="email">E-mail:</label><br>
+                    <input type="mail" id="email" name="email" placeholder="ahmedadel@yahoo.com"><br><br>
+                    <button class="make-reservation"> Make a reservation</button>
+                </form>
+            </div>
+        </section>
+        <footer>
+            <p>All Rights Reserved &copy; Ahmed Adel Mohamed &hearts; </p>
+        </footer>
 </html>
