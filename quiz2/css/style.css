@@ -1,16 +1,25 @@
+@charset "UTF-8";
 *{
     margin: 0;
     padding:0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
 }
 a{
     text-decoration: none;
     color: rgb(255, 254, 254);
 }
+ul{
+    list-style: none;
+}
+
 .navbar{
     background-color: rgb(48, 46, 46);
+    padding: 0 10px;
 }
-.logo{
-    font-size: 20px;
+.navbar .container .logo h1{
+    font-size: 30px;
     color: #FED136;
     padding-left: 15px;
 }
@@ -23,9 +32,7 @@ a{
 .navbar .container  ul li {
     display: inline-block;
     padding: 10px 15px;
-    font-size: 20px;
-    
-    
+    font-size: 20px;       
 }
 .navbar .container  ul li a:hover{
     color: #FED136;
