@@ -2,10 +2,12 @@
 *{
     margin: 0;
     padding:0;
+    box-sizing: border-box;
 }
 body{
     font-family: 'Open Sans', sans-serif;
 }
+/* utility styles*/
 a{
     text-decoration: none;
     color: rgb(255, 254, 254);
@@ -13,21 +15,41 @@ a{
 ul{
     list-style: none;
 }
-
-.navbar{
-    background-color: rgb(48, 46, 46);
-    padding: 0 10px;
+.text-center{
+    text-align: center;
+    margin: auto;
 }
-.navbar .container .logo h1{
-    font-size: 30px;
+.bg-dark{
+    background-color: rgb(48, 46, 46);
+}
+.bg-light{
+    background-color: #FED136;
+}
+.text-primary{
     color: #FED136;
+}
+.underline{
+    margin: 20px auto;
+    width: 4%;
+    border: 3px solid #796d44;
+}
+.button{
+    border-radius: 10px ;
+    padding: 10px;
+    color: black;
+    background-color: blanchedalmond;
+}
+/*start styling*/
+.navbar{ 
+    padding: 13px;
+}
+.navbar .container .logo a{
+    font-size: 30px;   
     padding-left: 15px;
 }
 .container{
     display: flex;
-    justify-content: space-between;
-    padding-top: 20px;
-    
+    justify-content: space-between;   
 }
 .navbar .container  ul li {
     display: inline-block;
@@ -36,4 +58,72 @@ ul{
 }
 .navbar .container  ul li a:hover{
     color: #FED136;
+}
+.showcase{
+    height: 600px;
+    background: url(../images/banner-2.jpg) no-repeat center center /cover;
+}
+.container-2{  
+    padding-top: 150px;
+}
+.head-msg{
+    font-size: 1.8rem;
+    word-spacing: 3px;
+    text-shadow: 1px 1px 1px white;
+    font-style: italic;
+}
+.slogan{
+    padding-top: 100px;
+    width: 120px;
+}
+.tell-me {
+    padding-top: 30px; 
+}
+.button:hover{
+    background-color: burlywood;
+    color:whitesmoke;
+    font-family: sans-serif;
+    font-size: larger;
+}
+.services{
+    height: 400px;
+}
+.service{
+    padding-top: 80px;
+    font-size: 40px;
+    font-family:  sans-serif;   
+}
+.row{
+    display: flex;
+    padding: 40px 0;
+}
+.icon i{
+    border-radius: 50%;
+    padding: 20px;
+}
+.empty{
+    height: 100px;
+}
+.container-3{
+    margin: 100px 0;
+    height: 300px;
+}
+.wrapper{
+    padding: 80px 0;
+    color: white;
+}
+.start{
+    padding: 10px ;
+    border-radius: 10px ;
+    color: black;
+    background-color: blanchedalmond;
+}
+.container-3 .wrapper p{
+    padding-bottom: 30px;
+}
+footer{
+    text-align: center;
+    height: 50px;
+    background-color: slategrey;
+    padding-top: 20px;
 }
