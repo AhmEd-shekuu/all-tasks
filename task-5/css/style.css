@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 15px;
+    
+}
+.bt-dark{
+    background-color:rgb(39, 38, 38) ;
+    padding: 15px 25px;
+    color: snow;
+}
+.bt-dark:hover{
+    background-color: rgb(241, 91, 22);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    background-color: rgb(39, 38, 38);
+}
+.logo{
+    padding: 12px 20px;
+}
+.brand{
+    font-family: 'PT Serif', serif;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+.navigation{
+    padding: 27px 0;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+.navigation li a{
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+}
+.navigation li a:hover{
+    color: rgb(241, 91, 22);
+}
+.showcase{
+    height: 570px;
+    background: url(../images/banner-bg.png) no-repeat center center /cover;
+    line-height: 70px;
+    position: relative;
+}
+.h-text{
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+}
+.m-text{
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: 600px;
+    color: rgb(241, 241, 241);
+}
+.text{
+    font-size: 20px;
+    color: snow;
+}
+.aside{
+    position: absolute;
+    margin: 90px 80px;
+    width: 50%;
+}
+.About{
+    display:flex ;
+    margin: 50px  40px 0 120px;
+}
+.text-2{
+    width:50% ;
+}
+.heading-text{
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color:  rgb(241, 91, 22);
+    padding-top: 100px;
+}
+.message{
+    color: rgb(143, 141, 141);
+}
+.header{
+    text-align: center;
+    padding: 60px 0;
+}
+.o-gallery{
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color:  rgb(241, 91, 22);
+    text-align: center;
+    padding-top: 30px;
+}
+.message-2{
+    color: rgb(109, 105, 105);
+    width: 80%;
+    margin: auto;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.button{
+    padding: 15px 25px;
+    color: snow;
+}
+.text-3{
+    color: rgb(252, 252, 252);
+    font-size:20px ;  
+    text-align: center;
+    padding: 40px 0;
+}
+.services{
+    position: relative;
+    z-index: 2;
+}
+.service{
+    position: sticky;
+    z-index: 5;
+    height: 600px;
+    background: url(../images/services-bg.png) no-repeat center center /cover;
+}
+.service h1{
+    color: rgb(243, 243, 243);
+}
+.contact-us {
+    height: 400px;
+}
