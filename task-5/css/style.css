@@ -8,8 +8,7 @@ a{
 li{
     list-style: none;
     display: inline-block;
-    padding: 0 15px;
-    
+    padding: 0 15px; 
 }
 .bt-dark{
     background-color:rgb(39, 38, 38) ;
@@ -157,7 +156,7 @@ li{
 }
 .card:hover .bt-dark2{
     visibility: visible;
-    color: black;
+    color: whitesmokes;
 }
 .card:hover .t-coffe{
     color: black;
