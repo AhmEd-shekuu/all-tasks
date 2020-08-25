@@ -109,6 +109,7 @@ li{
 .container{
     display: flex;
     justify-content: space-around;
+    padding: 15px 0;
 }
 .button{
     padding: 15px 25px;
@@ -156,7 +157,120 @@ li{
 }
 .card:hover .bt-dark2{
     visibility: visible;
+    color: black;
+}
+.card:hover .t-coffe{
+    color: black;
 }
 .card:hover{
     height: 220px;
+    background-color: rgb(250, 250, 250);
+    color: black;
+
+}
+.container-3{
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    height: 400px;
+}
+.h-testimonial{
+    color:  rgb(241, 91, 22);
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+}
+.t-testimonial{
+    padding-top: 20px;
+    color: rgb(39, 38, 38);
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+.text-area{
+    padding-top: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+.monila{
+    padding-left: 90px;
+    color:  rgb(241, 91, 22);
+}
+.t-monila{
+    border-left: 3px solid black;
+    border-width: 70%;
+    border-right: 3px solid black;
+    padding:0 20px;
+}
+.contactus{
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color:  rgb(241, 91, 22);
+    text-align: center;
+    padding-top: 30px;
+}
+input[type=text] {
+    width: 100%;
+    padding: 20px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 10px;
+  }
+  .inputs{
+      background: url(../images/img-9.png) center center/ cover;
+      
+  }
+  .contact-wrapper{
+      display: flex;
+      justify-content: space-between;
+      height: 503px;
+      padding-top: 40px; 
+  }
+  .send{
+      padding: 15px 50px;
+      margin-top: 20px;
+      border-radius: 30px; 
+      background-color:rgb(241, 91, 22) ;
+      border:none;
+      color: rgb(255, 255, 255);
+  }
+  .map{
+      overflow: hidden;
+  }
+  .Contacts{
+      display: flex;
+      justify-content: space-between;
+      height: 350px;
+      text-align: center;
+      line-height: 30px;
+      font-family: 'Roboto', sans-serif;
+      color: whitesmoke;
+      background-color: rgb(29, 28, 28);
+      margin-top: 10px;
+  }
+  .About-us{
+      width: 30%;
+  }
+  .Contacts li {
+      display: block;
+  }
+  .Contacts h1 {
+    padding-top: 100px;
+   
+  }
+ a{
+     text-decoration: none;
+ }
+ .Contacts li a{
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+}
+.Contacts li a:hover{
+    color: rgb(241, 91, 22);
+}
+footer{
+    text-align: center;
+    padding: 30px 0;
+    font-family: 'Roboto', sans-serif;
 }
